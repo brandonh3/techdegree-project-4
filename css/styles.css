@@ -499,6 +499,12 @@ a {
 }
 
 /* line 9, ../../../../../Documents/TreeHouse Projects/techdegree-project-4/scss/components/_form.scss */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+/* line 14, ../../../../../Documents/TreeHouse Projects/techdegree-project-4/scss/components/_form.scss */
 .input {
   display: block;
   width: 94%;
@@ -508,7 +514,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 18, ../../../../../Documents/TreeHouse Projects/techdegree-project-4/scss/components/_form.scss */
+/* line 23, ../../../../../Documents/TreeHouse Projects/techdegree-project-4/scss/components/_form.scss */
 .hidden {
   position: absolute;
   left: -10000px;

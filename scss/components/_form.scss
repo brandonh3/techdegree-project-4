@@ -6,6 +6,11 @@
   flex-basis: 100%;
 }
 
+fieldset {
+  border: none;
+  padding: 0;
+}
+
 .input{
   display: block;
   width: 94%;
