@@ -1,0 +1,70 @@
+// ======================================
+//  Variables
+// ======================================
+
+// Colors
+$white: #fff;
+
+$accent-color-a: #58e1c1;
+$accent-color-b: #51ddfc;
+
+
+$col-1-color: #927bc1;
+
+$col-2-color: #fd7856;
+
+$col-3-color: #deb2ee;
+
+$col-4-color: #7ee6fd;
+
+$col-5-color: #88d9a0;
+
+$col-6-color: #4da2bb;
+
+$col-7-color: #ec9fa3;
+
+$col-8-color: #fd9f85;
+
+$col-9-color: #e4757a;
+
+$col-10-color: #63cc82;
+
+$col-11-color: #51ddfc;
+
+$col-12-color: #80e8d1;
+
+
+$btn-1-color: #51ddfc;
+
+$btn-2-color: #e4757a;
+
+$btn-3-color: #927bc1;
+
+$btn-4-color: #63cc82;
+
+$btn-5-color: #fd7856;
+
+
+$btn-1-hvr: lighten($btn-1-color, 15%);
+
+$btn-2-hvr: lighten($btn-2-color, 15%);
+
+$btn-3-hvr: lighten($btn-3-color, 15%);
+
+$btn-4-hvr: lighten($btn-4-color, 15%);
+
+$btn-5-hvr: lighten($btn-5-color, 15%);
+
+
+// Fonts
+$font-stack-primary: 'Lato', sans-serif;
+
+
+// Layout
+$max-width: 1400px;
+
+$breakpoints: (
+	'sm': 576px,
+	'med': 768px,
+	'lg': 992px,
+);

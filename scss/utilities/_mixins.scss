@@ -1,0 +1,26 @@
+// ======================================
+//  Mixins
+// ======================================
+
+// Media queries
+@mixin mq($break) {
+		$value: map-get($breakpoints, $break);
+		$sm: map-get($breakpoints, 'sm');
+
+		@if $value == null {
+			@warn "#{$break} is not a valid breakpoint name.";
+		}
+		@else {
+			@media(min-width: $value) {
+				@content;
+			}
+		}
+}
+
+// Transitions
+@mixin trans($val...) {
+   -webkit-transition: $val;
+   -moz-transition: $val;
+   -o-transition: $val;
+   transition: $val;
+}

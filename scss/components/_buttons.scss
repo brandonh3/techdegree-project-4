@@ -1,0 +1,59 @@
+// ======================================
+//  Button Styles
+// ======================================
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  @include trans(0.3s ease-in-out);
+}
+
+.default {
+  background-color: $btn-1-color;
+  &:hover {
+    background-color: $btn-1-hvr;
+  }
+}
+
+.error {
+  background-color: $btn-2-color;
+  &:hover {
+    background-color: $btn-2-hvr;
+  }
+}
+
+.info {
+  background-color: $btn-3-color;
+  &:hover {
+    background-color: $btn-3-hvr;
+  }
+}
+
+.success {
+  background-color: $btn-4-color;
+  &:hover {
+    background-color: $btn-4-hvr;
+  }
+}
+
+.warning {
+  background-color: $btn-5-color;
+  &:hover {
+    background-color: $btn-5-hvr;
+  }
+}
+
+@include mq('med') {
+  .btn {
+    padding: 10px 30px;
+  }
+
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
